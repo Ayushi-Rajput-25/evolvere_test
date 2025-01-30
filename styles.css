@@ -9,9 +9,35 @@ body {
 .wrap{
   background-size: cover;
 }
+
+.faculty-heading {
+  color: #e0ffff;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-family: poppins;
+  font-weight: bold;
+  background-color: transparent;
+  font-family: "Faculty Glyphic", serif;
+}
+
+.body-content {
+  /* padding: 20px; */
+  padding: 0 20px 20px 20px;
+  flex-wrap: wrap;
+  background-image: url(image.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 header {
   text-align: center;
   padding: 20px;
+  background-color: rgba(9, 9, 11, 0.7);
+  border-radius: 50px;
+  color: white;
   h1{
     font-size: 32px;
     margin: 10px 0;
@@ -19,12 +45,12 @@ header {
   h2{
     font-size: 20px;
     margin: 5px 0;
-    color: #555;
+    /* color: #555; */
   }
   h3{
     font-size: 18px;
     margin: 10px 0;
-    color: #222;
+    /* color: #222; */
     font-weight: bold;
   }
   .intro-text{
@@ -36,7 +62,7 @@ header {
   }
 }
 
-.about-section{
+/* .about-section{
   background-color: #fff;
   padding: 40px 20px;
   text-align: center;
@@ -63,11 +89,11 @@ header {
       text-align: justify;
     }
   }
-}
+} */
 
 
 
-.events-section {
+/* .events-section {
   padding: 40px 50px;
   padding-top: 50px;
   margin-top: 20px;
@@ -123,9 +149,9 @@ header {
 .highlight {
   color: red;
   font-weight: bold;
-}
+} */
 
-.-advisors {
+/* .-advisors {
   width: 100%;
   height: 100%;
 }
@@ -196,13 +222,13 @@ header {
   font-size: 14px;
   font-weight: bold;
   color: #333;
-}
+} */
 .root123 {
   --surface-color: #fff;
   --curve: 40;
 }
 
-.card12 {
+/* .card12 {
   font-family: poppins;
   background-color: #ffffff;
 }
@@ -318,10 +344,10 @@ header {
   margin: 0;
   padding: 0;
   background-color: #ffffff;
-}
+} */
 
 /*  Section */
-.-container {
+/* .-container {
   max-width: 1100px;
   margin: 20px auto;
   padding: 10px;
@@ -337,7 +363,7 @@ header {
 .-container .highlight {
   color: red;
   font-weight: bold;
-}
+} */
 
 /*  Row */
 .-row {
@@ -348,10 +374,10 @@ header {
 }
 
 /*  Card */
-.-card {
+/* .-card {
   display: flex;
-  flex: 1 1 calc(50% - 20px); /* Responsive 2 columns */
-  align-items: center;
+  flex: 1 1 calc(50% - 20px); Responsive 2 columns */
+  /* align-items: center;
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 40px;
@@ -359,7 +385,7 @@ header {
   max-width: 520px;
   margin: 10px auto;
   height: 220px;
-}
+} */
 
 /* Photo Box */
 .photo-box {
@@ -414,8 +440,7 @@ header {
   padding: 0;
   margin-bottom: 40px;
   font-family: poppins;
-
-
+  border-radius: 50px;
 }
 .contact-container {
   height: 600px;
@@ -427,11 +452,13 @@ header {
   display: flex;
   flex-direction: column;
   align-items: start;
+  color: white;
   gap: 20px;
 }
 .contact-left-title h2 {
   font-weight: 600;
-  color: #333;
+  /* color: #333; */
+  color: white;
   font-size: 40px;
   margin-bottom: 5px;
 }
@@ -439,14 +466,16 @@ header {
   border: none;
   width: 120px;
   height: 5px;
-  background-color: #a363aa;
+  /* background-color: #a363aa; */
+  background-color: white;
   border-radius: 10px;
   margin-bottom: 20px;
 }
 .contact-inputs {
   width: 400px;
   height: 50px;
-  border: 2px solid rgb(111, 14, 236);
+  /* border: 2px solid rgb(111, 14, 236); */
+  border: 2px solid black;
   outline: none;
   padding-left: 25px;
   font-weight: 500;
@@ -473,7 +502,8 @@ header {
   gap: 10px;
   border: none;
   border-radius: 50px;
-  background: linear-gradient(#5FAAA8, #745FB3);
+  /* background: linear-gradient(#5FAAA8, #745FB3); */
+  background: linear-gradient(270deg, #070506, #8a8989);
   cursor: pointer;
 }
 .contact4-left button img {
@@ -526,6 +556,7 @@ header {
   justify-content: center;
   align-items: center;
   background-color: #3a3535;
+  /* background-color: #000000; */
   text-align: center;
   color: #fff;
   padding-top: 30px;
@@ -552,6 +583,7 @@ header {
 
 .text-dark-purple {
   color: #4b0082;
+  /* color: #007acc; */
 }
 
 .bg-white {
@@ -586,7 +618,7 @@ header {
   background-color: #fefbf6;
 }
 
-.main-heading {
+/* .main-heading {
   font-family: poppins;
   font-weight: ld;
   padding-bottom: 15px;
@@ -601,7 +633,7 @@ header {
   color: black;
   text-align: center;
   padding-top: 20px;
-}
+} */
 
 .c-img {
   height: 100%;
@@ -616,9 +648,9 @@ header {
   background-color: white;
 }
 
-.section0 {
+/* .section0 {
   background-color: black;
-}
+} */
 
 .logo-strokes {
   height: 50px;
@@ -655,7 +687,7 @@ header {
 
 
 
-.card mb-3 {
+/* .card mb-3 {
   padding-left: 300px;
   text-align: center;
 }
@@ -680,7 +712,7 @@ header {
   text-align: center;
   padding-left: 50vh;
   padding-top: 30px;
-}
+} */
 
 .image1 {
   padding-top: 1vh;
@@ -720,18 +752,22 @@ header {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #5c5d5f;
+  /* background-color: #5c5d5f; */
+  background-color: rgba(8, 8, 8, 0.7);
   color: #fff;
   transition: background-color 0.3s;
   font-size: 1rem;
 }
 
 .filter-button:hover {
-  background-color: #2b2b2b;
+  /* background-color: #2b2b2b; */
+  background-color: #040404;
 }
 
 .filter-button.active {
   background: linear-gradient(#5FAAA8, #745FB3);
+  /* background-color: whitesmoke;
+  color: black; */
 }
 
 #unique-card-container {
@@ -752,7 +788,6 @@ header {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   aspect-ratio: 1 / 1;
-
   border: 1px solid #ddd;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -857,12 +892,63 @@ header {
   }
 }
 
+/* Faculty */
+
+.wrap-faculty {
+  flex-wrap: wrap;
+  border-radius: 50px;
+  background-color: rgba(9, 9, 11, 0.7);
+  margin-top: 50px;
+  padding-top: 10px;
+  /* opacity: 0.7; */
+  /* color: white;
+  -webkit-text-stroke: 0.5px whitesmoke */
+ }
+ 
+/* .faculty-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+} */
+
+.faculty-heading h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  /* color: #333; */
+  color: white;
+  margin-bottom: 10px;
+  font-family: poppins;
+  letter-spacing: 1px;
+  padding-top: 50px;
+  font-family: "Faculty Glyphic", serif;
+}
+
+.faculty-caption {
+  font-size: 1.2em;
+  font-style: italic;
+  margin-top: 0;
+}
+
 .faculty-row {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
   padding: 20px;
+  background-color: transparent;
+}
+
+/* Responsive Styles for Heading */
+@media (max-width: 768px) {
+  .faculty-heading h2 {
+    font-size: 2em; /* Smaller heading on tablets and smaller screens */
+  }
+
+  .faculty-caption {
+    font-size: 1em;
+  }
 }
 
 /* Card Styling */
@@ -872,10 +958,11 @@ header {
   width: 100%;
   max-width: 500px; /* Maximum width for each card */
   border: 5px solid #201919;
+  /* border: 5px solid #272424; */
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
   overflow: hidden;
-    background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.7);
   transition: transform 0.3s ease-in-out;
   height: 250px;
 }
@@ -902,6 +989,7 @@ header {
   font-size: 1.5em;
   font-weight: bold;
   color: #333;
+  -webkit-text-stroke-color: #000000;
   margin: 0;
 }
 
@@ -976,7 +1064,7 @@ header {
 
 
 
-.vertical-line {
+/* .vertical-line {
   position: static;
   left: 50%;
   top: 10px;
@@ -1002,16 +1090,24 @@ header {
   .about-section .section-content p {
     text-align: center;
   }
-}
+} */
 
 /* Events Section */
 
+.events-section {
+  background-color: rgba(9, 9, 11, 0.7);
+  /* opacity: 0.7; */
+  padding: 0px 20px;
+  border-radius: 50px;
+}
 
 .events-section h2 {
   text-align: center;
   font-size: 24px;
   font-weight: bolder;
   margin-bottom: 30px;
+  /* padding-top: 50px; */
+  color: white;
 }
 
 .event-details {
@@ -1020,7 +1116,8 @@ header {
   justify-content: space-evenly;
   gap: 20px;
   flex-wrap: wrap;
-  background-color: #ececec;
+  /* background-color: #ececec; */
+  background-color: rgba(236, 236, 236, 0.7);
   padding-top: 40px;
   padding-bottom: 40px;
   border-radius: 50px;
@@ -1109,7 +1206,7 @@ header {
 }
 
 /* Faculty Heading */
-.faculty-heading {
+/* .faculty-heading {
   text-align: center;
   margin-top: 25px;
   margin-bottom: 20px;
@@ -1119,36 +1216,7 @@ header {
   font-family: "Faculty Glyphic", serif;
   
   
-}
-
-.faculty-heading h2 {
-  font-size: 2.5em;
-  font-weight: bold;
-  color: #333;
-  margin-bottom: 10px;
-  font-family: poppins;
-  letter-spacing: 1px;
-  padding-top: 50px;
-  font-family: "Faculty Glyphic", serif;
-}
-
-.faculty-caption {
-  font-size: 1.2em;
-  font-style: italic;
-  margin-top: 0;
-  
-}
-
-/* Responsive Styles for Heading */
-@media (max-width: 768px) {
-  .faculty-heading h2 {
-    font-size: 2em; /* Smaller heading on tablets and smaller screens */
-  }
-
-  .faculty-caption {
-    font-size: 1em;
-  }
-}
+} */
 
 
 
@@ -1167,7 +1235,8 @@ header {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: rgba(9, 9, 11, 0.7);
 }
 
 .logo-unique img {
@@ -1194,7 +1263,8 @@ header {
 
 .nav-links-unique a {
   text-decoration: none;
-  color: #333;
+  /* color: #333; */
+  color: white;
   font-size: 1rem;
   font-weight: 600;
   transition: color 0.3s ease;
@@ -1263,7 +1333,7 @@ header {
 /* General Reset */
 
 /* Header Section */
-.evolvere-header {
+/* .evolvere-header {
   background: linear-gradient(#5FAAA8, #745FB3);
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -1299,15 +1369,14 @@ header {
 }
 .text-col{
   color: #F4EFE5;
-}
+} */
 
 /* About Section */
 .evolvere-about-section {
   padding: 50px 20px;
-  background-color: #d9e6d6;
+  background-color: rgba(255, 255, 255, 0.7);
   border-radius: 50px;
   box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
-  
 }
 
 .evolvere-container {
@@ -1319,7 +1388,8 @@ header {
 .evolvere-section-content {
   margin-bottom: 10px;
   text-align: center;
-  background-color: #d9e6d6;
+  /* background-color: #d9e6d6; */
+  color: black;
 }
 
 .evolvere-section-content h2 {
@@ -1331,7 +1401,7 @@ header {
 .evolvere-section-content p {
   font-size: 1.1rem;
   line-height: 1.8;
-  color: #555;
+  /* color: #555; */
 }
 
 .evolvere-section-divider {
@@ -1401,6 +1471,8 @@ header {
   text-align: center;
   text-transform: uppercase;
   color: #f1faee;
+  /* color: white; */
+  -webkit-text-stroke: 0.3px black;
   font-size: 4rem;
   font-family: poppins;
   font-family: "Faculty Glyphic", serif;
@@ -1416,6 +1488,8 @@ header {
   justify-content: center;
   align-items: center;
   color: #f4f6f8;
+  /* color: white; */
+  -webkit-text-stroke: 0.3px black;
   font-family: poppins;
 }
 
@@ -1425,6 +1499,7 @@ header {
   letter-spacing: 1rem;
   margin-top: 0;
   color: #b9f9fb;
+  -webkit-text-stroke: 0.1px black;
 }
 
 .roller #rolltext {
@@ -1522,6 +1597,7 @@ header {
   height: 100%;
   object-fit: cover; /* Ensures the image covers the container without distortion */
 }
+
 #carouselExampleIndicators {
   position: relative;
   border-bottom-right-radius: 20% 30%; /* Adjust the value as needed */
@@ -1536,4 +1612,10 @@ header {
 
 #carouselExampleIndicators .carousel-item img {
   border-bottom-right-radius: 20% 30%; /* Optional: to round the image corner if necessary */
+}
+
+@media screen and (max-width: 786px) {
+  .carousel-inner {
+    height: 30vh;
+  }
 }
